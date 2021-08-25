@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialog : MonoBehaviour
 {
@@ -11,15 +12,19 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
 
+
     void Start(){
         StartCoroutine(Type());
     }
 
     void Update() {
-        if(textDisplay.text == sentences[index]){
+            
+            if(textDisplay.text == sentences[index]){
             continueButton.SetActive(true);
         }
     }
+
+
     IEnumerator Type(){
         foreach (char letter in sentences[index].ToCharArray())
         {
@@ -42,6 +47,7 @@ public class Dialog : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
