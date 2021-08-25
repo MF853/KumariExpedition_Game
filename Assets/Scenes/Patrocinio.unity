@@ -333,8 +333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9.678528, y: 5.423004}
-  m_SizeDelta: {x: -19.357, y: -248.128}
+  m_AnchoredPosition: {x: 9.6785, y: 0}
+  m_SizeDelta: {x: -19.357, y: -223.359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296524526
 MonoBehaviour:
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeLoading: 5
-  sceneNameToLoad: MenuInicial
+  timeElapsed: 0
   animator: {fileID: 1435298621}
 --- !u!1 &1924177113
 GameObject:
