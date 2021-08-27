@@ -466,10 +466,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 2025532937}
   sentences:
-  - "AV\xD3: Deixe-me contar uma hist\xF3ria sobre minha infancia..."
-  - Quando eu era mais nova, gostava de estar sempre em contato com a natureza e
-    com isso meus pais quase n conseguiam me manter em casa
-  - Uma certa noite...
+  - Depois de um dia cheio, a pequena indiazinha (ou Kumari) resolve ir se deitar
+    para dormir em sua oca
+  - "e, como de costume, pede para sua av\xF3 contar algumas hist\xF3rias de seus
+    antepassados, pois ela adorava escut\xE1-las antes de dormir. "
+  - "Kumari: Tam\xFBa, voc\xEA pode me contar mais uma das suas hist\xF3rias antes
+    de dormir? "
+  - "Av\xF3: Claro, Memb\xEEra. Vamos deitar. "
+  - "Av\xF3: Claro, Memb\xEEra. Vamos deitar. "
+  - "Av\xF3: Claro, Memb\xEEra. Vamos deitar. "
+  - "Av\xF3: Claro, Memb\xEEra. Vamos deitar. "
   typingSpeed: 0.01
   continueButton: {fileID: 1093545763}
 --- !u!4 &459530286
@@ -761,7 +767,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

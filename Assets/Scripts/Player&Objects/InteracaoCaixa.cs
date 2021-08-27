@@ -7,10 +7,11 @@ public class InteracaoCaixa : MonoBehaviour
     public Rigidbody movingBox;
     public GameObject player;
     public bool isTouching;
+    public Vector3 offset;
     
     void Update()
     {   
-        if(Input.GetKey(KeyCode.J) && isTouching == true)
+        if(isTouching == true && Input.GetKey(KeyCode.J))
         {
             movingBox.transform.SetParent(player.transform);
         }
