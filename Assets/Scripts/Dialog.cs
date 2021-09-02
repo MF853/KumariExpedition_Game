@@ -12,7 +12,10 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
 
-
+    void Awake() {
+        continueButton.SetActive(false);
+         
+     }
     void Start(){
         StartCoroutine(Type());
     }

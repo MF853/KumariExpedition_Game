@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         //Vector for movement
+        transform.Rotate(horizontalInput, 0, verticalInput);
+
         inputDirection = new Vector3(horizontalInput, 0, verticalInput);
         Vector3 transformDirection = transform.TransformDirection(inputDirection);
         Vector3 flatMovement = speedF * Time.deltaTime * transformDirection;
