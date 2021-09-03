@@ -23,6 +23,12 @@ public class PlayerMovement : MonoBehaviour
         //Speed Adjusment Back to Normal
         if(crouching == false && running == false){
             speedF = speedI;}
+            if(player.isGrounded == true){
+                Debug.Log("No chão");
+            }
+            else{
+                Debug.Log("Pulando");
+            }
     }
 
     void MoveAndJump()
