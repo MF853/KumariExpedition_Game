@@ -31,8 +31,6 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         //Vector for movement
-        transform.Rotate(horizontalInput, 0, verticalInput);
-
         inputDirection = new Vector3(horizontalInput, 0, verticalInput);
         Vector3 transformDirection = transform.TransformDirection(inputDirection);
         Vector3 flatMovement = speedF * Time.deltaTime * transformDirection;
@@ -54,10 +52,10 @@ public class PlayerMovement : MonoBehaviour
     void Crouch(){
         if (Input.GetKey(KeyCode.L) && isJumping == false){ 
             speedF = speedI/2;
-            player.transform.localScale = new Vector3(2f, 1.5f, 2f);
+            player.transform.localScale = new Vector3(1f, 0.75f, 1f);
             crouching = true;}
         else{
-            player.transform.localScale = new Vector3(2f, 2f, 2f);
+            player.transform.localScale = new Vector3(1f, 1f, 1f);
             crouching = false;}
     }    
 
