@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
     void Crouch(){
         if (Input.GetKey(KeyCode.L) && isJumping == false){ 
             speedF = speedI/2;
-            player.transform.localScale = new Vector3(1f, 0.75f, 1f);
+            player.transform.localScale = new Vector3(1f, 0.65f, 1f);
             crouching = true;}
         else{
             player.transform.localScale = new Vector3(1f, 1f, 1f);
