@@ -11,19 +11,24 @@ public class Dialog : MonoBehaviour
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
+    //public GameObject nomeAvo;
+    //public GameObject nomeKumari;
+   //public string sceneIndex;
 
     void Awake() {
         continueButton.SetActive(false);
-         
+        /*nomeAvo.SetActive(false);
+        nomeKumari.SetActive(false);
+        sceneIndex = SceneManager.GetActiveScene().name;*/
      }
     void Start(){
         StartCoroutine(Type());
     }
 
     void Update() {
-            
             if(textDisplay.text == sentences[index]){
             continueButton.SetActive(true);
+            //NameConditions();
         }
     }
 
@@ -53,4 +58,19 @@ public class Dialog : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
+
+    /*void NameConditions(){
+        if(sceneIndex == "Introducao"){
+                if(index == 3){
+                    nomeKumari.SetActive(true);
+                }
+                if(index == 4){
+                    nomeAvo.SetActive(true);
+                }
+                else{
+                    nomeKumari.SetActive(false);
+                    nomeAvo.SetActive(false);
+                }
+            }
+    }*/
 }
