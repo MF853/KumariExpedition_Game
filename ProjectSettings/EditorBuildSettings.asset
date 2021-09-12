@@ -18,9 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Introducao2.unity
     guid: a7c9067664d8aeb4cab308c60ac7cdde
   - enabled: 1
-    path: Assets/Scenes/IntroHistoria.unity
-    guid: 022d3d65626a35b41881cb57587aa13a
-  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 4e81c5f6018b0994686b5a3f68b44c15
   - enabled: 1
@@ -35,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalLevel.unity
     guid: 850e5c190ef1ff546ae3433d3fe393f7
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 2af8185ea33ff67488259a8730b1f390
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e4ab0219f07119542b7e1eb885eda9ae, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d1172a8f1846334469b29d8738aaa9c8, type: 2}

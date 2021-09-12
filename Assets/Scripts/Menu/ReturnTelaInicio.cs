@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ActivateCredits : MonoBehaviour
+public class ReturnTelaInicio : MonoBehaviour
 {
-    public void LoadCredits(){
-        SceneManager.LoadScene(9);
-    }
+    public void BackToMenu(){
+        SceneManager.LoadScene(1);
+    } 
 }

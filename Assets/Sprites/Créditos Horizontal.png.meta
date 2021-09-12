@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 355b84ffa1c975649adbc890c9186868
+guid: a05141fc311365d4fa01fb2b9fb7eacb
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 862686280891913692
-    second: folha sair_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,28 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: folha sair_0
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 111
-        width: 318
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd55a2d0a90e8fb00800000000000000
-      internalID: 862686280891913692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
