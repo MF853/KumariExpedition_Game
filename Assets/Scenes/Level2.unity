@@ -328,6 +328,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -504,6 +505,10 @@ PrefabInstance:
     - target: {fileID: 1091845267600724755, guid: e2271668251ff394395a0228b5b09006, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398659657195999289, guid: e2271668251ff394395a0228b5b09006, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4637376741736891023, guid: e2271668251ff394395a0228b5b09006, type: 3}
       propertyPath: m_Pivot.x
