@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class ActivateCredits : MonoBehaviour
 {
     public void LoadCredits(){
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(11);
     }
 }

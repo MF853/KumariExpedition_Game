@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class ReturnTelaInicio : MonoBehaviour
 {
     public void BackToMenu(){
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     } 
 }
